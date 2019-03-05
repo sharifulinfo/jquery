@@ -1,4 +1,11 @@
 <?php require_once('inc/header.php');?>
+
+<?php 
+	function test(){
+		return 'SlideUp';
+	} 
+?>
+
 <div class="container">
 	<section class="headsection">
 		<h1>My First Bootstrap Page</h1>
@@ -10,4 +17,10 @@
 		<p>This is footer</p> 
 	</section>
 </div>
+
 <?php require_once('inc/footer.php')?>
+
+
+<script type="text/javascript">
+var vars = '<?php echo test();?>';
+</script>
