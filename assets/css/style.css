@@ -1,0 +1,19 @@
+body{
+	background: #eee;
+	margin: 0px;
+	padding:0px;
+	font-family: Roboto;
+}
+.headsection,.footersection{
+	text-transform: uppercase;
+	text-align: center;
+	background: #eefb28; 
+	margin: 0px;
+	padding: 10px;
+}
+.main-content{
+	border:1px solid #ddd;
+	min-height: 500px;
+	padding: 10px;
+	background: #fff;
+}
